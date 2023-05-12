@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace GroceryCode.Controllers
 {
-    public class HomeController : Controller //test baja
+    public class HomeController : Controller //test
     {
         private readonly ILogger<HomeController> _logger;
 
