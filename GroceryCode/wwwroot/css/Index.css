@@ -4,12 +4,36 @@
 
 body {
     box-sizing:border-box;
-    padding:3rem;
+    padding:1rem;
     background-color:#7ed56f;
 }
 
-.row .col-1-of-4 {
-    width: calc((100% - 3 * 6rem) / 4);
+
+
+
+.header{
+    display:flex;
+    border:solid;
+}
+
+.header-primary{
+    text-align:center;
+}
+
+.section-foodcard{
+    width:100%;
+    max-width:100%;
+    justify-content:center;
+    display:flex;
+    padding:2rem;
+    height:auto;
+    flex-wrap:wrap;
+    
+}
+
+
+.col-1-of-4 {
+    width: calc((100% - 3 * 2rem) / 4);
 }
 
 
@@ -21,6 +45,10 @@ body {
     border-radius:3px;
     box-shadow: 0 1.5rem 4rem rgba(#000, .15);
     border: solid;
+    box-sizing:border-box;
+    margin:1rem;
+    justify-content:space-between;
+    
 }
 .food-card-image{
     max-width:100%;
