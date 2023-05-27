@@ -1,0 +1,128 @@
+﻿body {
+    background-color: darkslategrey;
+}
+
+#signInContainer {
+    background-color: gray;
+    text-align: center;
+    min-width: 250px;
+    width: 20%;
+    height: 450px;
+    min-height: 500%;
+    margin: auto;
+    align-content: center;
+    justify-content: center;
+    padding-left: 10px;
+    border-radius: 5%;
+    position: relative;
+}
+
+#signInPasswordContainer {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 0px;
+    justify-content: start;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#signInEmailContainer {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 0;
+    padding-left: 0px;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    justify-content: start;
+    margin-top: 35%;
+    padding-top: 30%;
+    padding-right: 10px;
+}
+
+.loginInput {
+    display: block;
+    margin: auto;
+    margin-left: 19px;
+    width: 85%;
+    border-radius: 5px;
+    height: 40px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+}
+
+#usernameIconContainer {
+    background-color: blue;
+    /* width: 50 px; */
+    border-radius: 5px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#signInUsernameContainer {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    grid-gap: 0;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 0px;
+    justify-content: start;
+    text-align: center;
+    padding-right: 10px;
+}
+
+#passwordIconContainer {
+    background-color: blue;
+    /* width: 50 px; */
+    border-radius: 5px;
+    margin-right: -20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+#userIcon {
+    /* background-color: blueviolet; */
+    color: green;
+    font-size: 25px;
+    align-items: center;
+}
+
+#portalIcon {
+    color: white;
+    font-size: 600%;
+    background-color: blue;
+    padding: 35px;
+    border-radius: 100%;
+}
+
+#passwordIcon {
+    color: yellow;
+    font-size: 25px;
+    align-items: center;
+}
+
+#signInButtonContainer {
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+#signInButton {
+    background-color: blue;
+    color: white;
+    margin-top: 20px;
+}
+
+#signInIcon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -160%);
+}
